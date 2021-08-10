@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+}
+.app-con {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-con {
+  background-color: #ffffff;
+  height: 70vh;
+  width: 60vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  align-items: center;
+}
+.game-name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #a35200;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #334155;
+  padding: 20px;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+.toss-coin {
+  margin: 20px;
+  background-color: #f9d423;
+  border: 0px;
+  width: 90px;
+  height: 30px;
+  color: #a35200;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.results-con {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.result {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  padding: 20px;
+}
